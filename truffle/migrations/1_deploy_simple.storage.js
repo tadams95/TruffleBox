@@ -1,5 +1,5 @@
-const ItemManager = artifacts.require("./ItemManager.sol");
+const SimpleStorage = artifacts.require("./SimpleStorage.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(ItemManager);
+  deployer.deploy(SimpleStorage);
 };
